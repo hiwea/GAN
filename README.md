@@ -10,13 +10,13 @@ The GAN consists of:
 - **Discriminator**: CNN-based binary classifier to distinguish between real and fake images.
 
 ## 📁 Project Structure
-├── gan_mnist.py # Main GAN training script
-├── samples/ # Folder to save generated images
-├── generator.pth # Final trained generator checkpoint
-├── discriminator.pth # Final trained discriminator checkpoint
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── data/ # MNIST dataset (auto-downloaded)
+- gan_mnist.py # Main GAN training script
+- samples/ # Folder to save generated images
+- generator.pth # Final trained generator checkpoint
+- discriminator.pth # Final trained discriminator checkpoint
+- requirements.txt # Python dependencies
+- README.md # Project documentation
+- data/ # MNIST dataset (auto-downloaded)
 
 ## 🚀 Features
 
