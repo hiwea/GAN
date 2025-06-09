@@ -10,5 +10,35 @@ The GAN consists of:
 - **Discriminator**: CNN-based binary classifier to distinguish between real and fake images.
 
 ## 📁 Project Structure
+├── gan_mnist.py # Main GAN training script
+├── samples/ # Folder to save generated images
+├── generator.pth # Final trained generator checkpoint
+├── discriminator.pth # Final trained discriminator checkpoint
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── data/ # MNIST dataset (auto-downloaded)
 
+## 🚀 Features
+
+- **Dataset**: MNIST digits (downloaded automatically)
+- **Training**:
+  - Optimizer: Adam
+  - Batch size: 16 (adjustable)
+  - Epochs: 50 (adjustable)
+- **Sample Generation**:
+  - Saves 16 generated digit samples as PNG every epoch
+  - Output saved in the `samples/` directory
+- **Checkpointing**:
+  - Saves final `generator.pth` and `discriminator.pth` model weights
+
+## 📦 Requirements
+
+- Python 3.8+
+- PyTorch (with CUDA for GPU support)
+- torchvision
+- matplotlib
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
 
